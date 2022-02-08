@@ -29,9 +29,9 @@
     </div>
 
     <div class="comment__btns">
-      <button class="comment__btn" v-show="!isCurrentUser" @click="openReplyInput"><img src="@/assets/images/icon-reply.svg" alt="reply"> Reply</button>
-      <button class="comment__btn comment__btn--delete" v-show="isCurrentUser" @click="deleteComment"><img src="@/assets/images/icon-delete.svg" alt="delete"> Delete</button>
-      <button class="comment__btn" v-show="isCurrentUser" @click="editComment"><img src="@/assets/images/icon-edit.svg" alt="edit"> Edit</button>
+      <button class="comment__btn" v-show="!isCurrentUser" @click="openReplyInput"><img src="@/assets/images/icon-reply.svg" alt="reply-icon"> Reply</button>
+      <button class="comment__btn comment__btn--delete" v-show="isCurrentUser" @click="deleteComment"><img src="@/assets/images/icon-delete.svg" alt="delete-icon"> Delete</button>
+      <button class="comment__btn" v-show="isCurrentUser" @click="editComment"><img src="@/assets/images/icon-edit.svg" alt="edit-icon"> Edit</button>
     </div>
   </div>
   
